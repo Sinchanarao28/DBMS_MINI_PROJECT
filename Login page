@@ -1,0 +1,89 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Login page</title>
+<style>
+
+.img{
+background-image:url("projectbackground.jpg");
+}
+
+
+h1{
+margin:0;
+text-align:center;
+padding:50px;
+font-weight:bold;
+}
+
+h2{
+text-align:center;
+padding-top:20px;
+}
+
+body{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+.b{
+border: 2px solid black;  
+border-radius: 2px; 
+padding:37px; 
+margin-left:500px;
+margin-right:490px;
+background-color:white;
+}
+
+.b input[type="name"],.b input[type="password"]{
+width:89%;
+padding: 15px;
+text-align:center;		
+border: none;
+border: 1px solid #ccc;
+}
+
+
+.btn{   
+color:white;
+background-color:green;
+border:none;
+padding:16px 25px;
+margin-left: 200px;
+margin-top:6px;
+margin-bottom:10px;
+}
+
+p{
+text-align:center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="img">
+
+<h1>Pharmacy Management System</h1>
+<div class='b'>
+	<h2>Login</h2>
+	<h4>username</h4>
+	<input type="name" name="username" placeholder="Username" >
+	
+	<h4>password</h4>
+    	<input type="password" placeholder="Enter Password" name="psw" required>
+	<br><br>
+
+	<button type="submit" class="btn">Login</button>
+
+<p>don't have an account,
+<a href="Signup.html">Sign-up </a>
+</p>
+	
+</div>
+<br><br><br>			
+
+</div>
+</body>
+</html>
